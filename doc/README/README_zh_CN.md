@@ -58,7 +58,7 @@ cd ~
 sudo apt-get update
 sudo apt-get install git build-essential
 sudo apt-get install qt5-default libqt5serialport5-dev 
-git clone https://github.com/wh201906/Proxmark3GUI.git --depth=1
+git clone https://github.com/H3d45/Proxmark3GUI.git --depth=1
 cd Proxmark3GUI
 mkdir build && cd build
 qmake ../src
@@ -72,7 +72,7 @@ cd ~
 brew update
 brew install qt@5
 brew link qt5 --force
-git clone https://github.com/wh201906/Proxmark3GUI.git --depth=1
+git clone https://github.com/H3d45/Proxmark3GUI.git --depth=1
 cd Proxmark3GUI
 mkdir build && cd build
 qmake ../src
@@ -81,6 +81,8 @@ open Proxmark3GUI.app
 ```
 
 > 为使GUI在macOS下正确连接设备，需要更改一些设置
+
+> 客户端路径必须是 pm3 控制台客户端的路径，例如“/usr/local/bin/pm3/”
 
 ![macOS_settings](macOS_settings.png)
 
