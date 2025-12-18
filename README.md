@@ -58,7 +58,7 @@ cd ~
 sudo apt-get update
 sudo apt-get install git build-essential
 sudo apt-get install qt5-default libqt5serialport5-dev
-git clone https://github.com/wh201906/Proxmark3GUI.git --depth=1
+git clone https://github.com/H3d45/Proxmark3GUI.git --depth=1
 cd Proxmark3GUI
 mkdir build && cd build
 qmake ../src
@@ -72,7 +72,7 @@ cd ~
 brew update
 brew install qt@5
 brew link qt5 --force
-git clone https://github.com/wh201906/Proxmark3GUI.git --depth=1
+git clone https://github.com/H3d45/Proxmark3GUI.git --depth=1
 cd Proxmark3GUI
 mkdir build && cd build
 qmake ../src
